@@ -1,0 +1,13 @@
+# kubernetes/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: heart-disease-app-service
+spec:
+  type: NodePort
+  ports:
+  - port: 8501
+    targetPort: 8501
+    nodePort: 30001
+  selector:
+    app: heart-disease-app
