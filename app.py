@@ -190,7 +190,7 @@ def new_tip():
 
 # Sidebar content
 with st.sidebar:
-    st.header(":heart: Heart Disease Prediction App")
+    st.header(":heart: Heart Health Prediction App")
     st.write("───────── ⋆⋅:heart:⋅⋆ ───────────")
     
     # Display background animation
